@@ -118,6 +118,44 @@ a {
     font-family: 'Roboto Mono',sans-serif;
 }
 
+/* CONTENT */
+
+/* myProjects */
+
+.myProjects {
+  width: 100%;
+  height: auto;
+  margin-top: 5em;
+}
+.project-cards {
+  max-width: 75vw;
+  height: auto;
+  display: grid;
+  grid-template-rows: .07fr 1fr;
+  margin: 0 auto;
+}
+.apple-card-top {
+  background-color: #e0e0e0;
+  border-radius: 15px 15px 0 0;
+}
+.apple-card-balls {
+    vertical-align: middle;
+    height: auto;
+}
+.apple-card-ball {
+    content: 'hallo';
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin: auto 0;
+    display: inline-block;
+}
+.red-ball {
+    background-color: rgba(255, 0, 0, 0.616);
+}
+.project-cards img {
+  max-width: 100%;
+}
 
 
 /* GENERAL MEDIA QUERIES
